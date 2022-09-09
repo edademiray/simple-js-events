@@ -13,6 +13,9 @@ function moved(e) {
     document.querySelector('div.pageX p span').innerHTML = e.pageX;
     
     document.querySelector('div.pageY p span').innerHTML = e.pageY;
+    document.querySelector('div.screenX p span').innerHTML = e.screenX;
+    
+    document.querySelector('div.screenY p span').innerHTML =e.screenY;
   
 
 }
